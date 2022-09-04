@@ -46,7 +46,6 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -201,3 +200,10 @@ gaps inner 10
 gaps outer 10
 for_window [class="^.*"] border pixel 8
 client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D
+
+# Custom bindsym
+
+bindsym $mod+Return exec alacritty
+bindsym $mod+F10 exec pactl set-sink-mute @DEFAULT_SINK@ toggle # Mute
+bindsym $mod+F11 exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Up
+bindsym $mod+F12 exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
