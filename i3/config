@@ -191,6 +191,9 @@ bar {
 
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id fcitx5 -d
+exec --no-startup-id picom -b
+exec --no-startup-id /usr/bin/xset s off
+exec --no-startup-id /usr/bin/xset -dpms
 
 # Window settings
 
