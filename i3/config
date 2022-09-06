@@ -203,7 +203,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 gaps inner 10
 gaps outer 10
 for_window [class="^.*"] border pixel 8
-client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D
+# client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D # Gray
+client.focused #555555 #555555 #ffffff #7600bc #7600bc # Purple
 
 # Custom bindsym
 
