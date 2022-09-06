@@ -30,3 +30,7 @@ this command will change these files.
 * picom config
 * polybar theme
 * rofi theme
+
+# Result
+
+![result](./assets/result.png)
