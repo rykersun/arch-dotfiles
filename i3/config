@@ -208,6 +208,8 @@ client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D
 # Custom bindsym
 
 bindsym $mod+Return exec alacritty
+bindsym $mod+F7 exec brightnessctl set 20%- # Bright Up
+bindsym $mod+F8 exec brightnessctl set +20% # Bright Down
 bindsym $mod+F10 exec pactl set-sink-mute @DEFAULT_SINK@ toggle # Mute
 bindsym $mod+F11 exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Up
 bindsym $mod+F12 exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
