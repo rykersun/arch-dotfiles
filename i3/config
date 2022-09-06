@@ -223,3 +223,8 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym $mod+n exec --no-startup-id rofi -show ssh -terminal alacritty
 # bindsym $mod+w exec --no-startup-id rofi -show window
 bindsym $mod+c exec --no-startup-id rofi -show calc -modi calc -no-show-match -no-sort -no-persist-history
+
+# Screenshot
+bindsym Print exec --no-startup-id maim "/home/$USER/Screenshot/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Screenshot/$(date).png"
+bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Screenshot/$(date).png"
