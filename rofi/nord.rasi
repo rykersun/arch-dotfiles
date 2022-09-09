@@ -42,7 +42,7 @@ window {
     anchor:   center;
     transparency: "screenshot";
     padding: 0px;
-    border:  0px;
+    border:  2px;
     border-radius: 6px;
 
     background-color: @transparent;
