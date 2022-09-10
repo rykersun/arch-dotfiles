@@ -204,7 +204,8 @@ gaps inner 10
 gaps outer 10
 for_window [class="^.*"] border pixel 8
 # client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D # Gray
-client.focused #7600bc #7600bc #ffffff #7600bc #7600bc # Purple
+# client.focused #7600bc #7600bc #ffffff #7600bc #7600bc # Purple
+client.focused #0047AB #0047AB #ffffff #0047AB #0047AB # Blue
 
 # Custom bindsym
 
