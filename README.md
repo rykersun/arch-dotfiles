@@ -33,4 +33,4 @@ this command will change these files.
 
 # Result
 
-![result](./assets/result.png)
+![result](./assets/rs.png)
