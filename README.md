@@ -40,7 +40,7 @@ Changed files and actions:
 If you want to enable dark mode, just run the `enable_dark_mode.sh` in `gtk-3.0/` folder.
 
 ```
-# gtk-3.0/enable.sh
+# gtk-3.0/enable_dark_mode.sh
 
  ./enable_dark_mode.sh
 ```
