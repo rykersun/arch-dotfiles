@@ -20,16 +20,30 @@
 rm -rf ~/.config/alacritty/ && mv alacritty/ ~/.config/ && rm -rf ~/.fonts/ && mv fonts/ ~/.fonts && rm -rf ~/.config/helix/ && mv helix/ ~/.config/ && rm -rf ~/.config/i3/ && mv i3/ ~/.config/ && rm -rf ~/.config/lazygit/ && mv lazygit/ ~/.config/ && rm -rf ~/.config/picom/ && mv picom/ ~/.config/ && rm -rf ~/.config/polybar/ && mv polybar/ ~/.config/ && rm -rf ~/.config/rofi/ && mv rofi/ ~/.config/ && rm -rf ~/Screenshot && mkdir ~/Screenshot && rm -rf ~/.xinitrc && mv xinitrc ~/.xinitrc && rm -rf ~/.Xresources && mv Xresources ~/.Xresources && fc-cache -fv
 ```
 
-this command will change these files.
+Changed files and actions: 
 
-* alacritty config
-* fonts (JetBrainsMono Nerd Font and polybar theme fonts)
-* helix config
-* i3 config
-* lazygit config
-* picom config
-* polybar theme
-* rofi theme
+* alacritty config file
+* ~/.fonts (JetBrains Mono Nerd Font and some polybar fonts)
+* helix editor config files
+* i3 config file
+* lazygit config file
+* picom config file
+* polybar config files
+* rofi config files
+* ~/Screenshot (new empty folder)
+* ~/.xinitrc (exec i3 and include .Xresources)
+* ~/.Xresources (i3 with 1.2 zoom level)
+* fc-cache -fv (reload fonts)
+
+# Enable dark mode
+
+If you want to enable dark mode, just run the `enable_dark_mode.sh` in `gtk-3.0/` folder.
+
+```
+# gtk-3.0/enable.sh
+
+ ./enable_dark_mode.sh
+```
 
 # Result
 
