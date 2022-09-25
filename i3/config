@@ -219,7 +219,7 @@ bindsym $mod+F12 exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
 # Rofi
 
 bindsym $mod+d exec --no-startup-id rofi -show drun
-# bindsym $mod+p exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
+bindsym $mod+p exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
 # bindsym $mod+p exec --no-startup-id  rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot"
 bindsym $mod+n exec --no-startup-id rofi -show ssh -terminal alacritty
 # bindsym $mod+w exec --no-startup-id rofi -show window

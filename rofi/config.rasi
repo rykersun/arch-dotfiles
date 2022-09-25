@@ -8,6 +8,7 @@ configuration {
     display-window: "";
     display-combi:  "";
     display-calc:  "";
+    display-power-menu:  "";
     show-icons:     false;
 }
 
