@@ -17,7 +17,7 @@
 # How to install?
 
 ```
-rm -rf ~/.config/alacritty/ && mv alacritty/ ~/.config/ && rm -rf ~/.fonts/ && mv fonts/ ~/.fonts && rm -rf ~/.config/helix/ && mv helix/ ~/.config/ && rm -rf ~/.config/i3/ && mv i3/ ~/.config/ && rm -rf ~/.config/lazygit/ && mv lazygit/ ~/.config/ && rm -rf ~/.config/picom/ && mv picom/ ~/.config/ && rm -rf ~/.config/polybar/ && mv polybar/ ~/.config/ && rm -rf ~/.config/rofi/ && mv rofi/ ~/.config/ && rm -rf ~/Screenshot && mkdir ~/Screenshot && rm -rf ~/.xinitrc && mv xinitrc ~/.xinitrc && rm -rf ~/.Xresources && mv Xresources ~/.Xresources && fc-cache -fv
+rm -rf ~/.config/alacritty/ && mv alacritty/ ~/.config/ && rm -rf ~/.fonts/ && mv fonts/ ~/.fonts && rm -rf ~/.config/helix/ && mv helix/ ~/.config/ && rm -rf ~/.config/i3/ && mv i3/ ~/.config/ && rm -rf ~/.config/lazygit/ && mv lazygit/ ~/.config/ && rm -rf ~/.config/picom/ && mv picom/ ~/.config/ && rm -rf ~/.config/polybar/ && mv polybar/ ~/.config/ && rm -rf ~/.config/rofi/ && mv rofi/ ~/.config/ && rm -rf ~/Screenshot && mkdir ~/Screenshot && rm -rf ~/.xinitrc && mv xinitrc ~/.xinitrc && rm -rf ~/.Xresources && mv Xresources ~/.Xresources && sudo rm -rf /etc/environment && sudo mv environment /etc/ && fc-cache -fv
 ```
 
 Changed files and actions: 
@@ -33,11 +33,12 @@ Changed files and actions:
 * ~/Screenshot (new empty folder)
 * ~/.xinitrc (exec i3 and include .Xresources)
 * ~/.Xresources (i3 with 1.2 zoom level)
+* /etc/environment (environment with fcitx5)
 * fc-cache -fv (reload fonts)
 
-# Enable dark mode
+# Enable the dark mode
 
-If you want to enable dark mode, just run the `enable_dark_mode.sh` in `gtk-3.0/`.
+If you want to enable the dark mode, just run the `enable_dark_mode.sh` in `gtk-3.0/`
 
 ```
 # gtk-3.0/enable_dark_mode.sh
