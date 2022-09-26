@@ -48,6 +48,40 @@ If you want to enable the dark mode, just run the `enable_dark_mode.sh` in `gtk-
  ./enable_dark_mode.sh
 ```
 
+# SDDM theme
+
+## install sddm
+
+```
+sudo pacman -S sddm
+```
+
+## enable sddm service
+
+```
+sudo systemctl enable sddm
+```
+
+## install sddm theme
+
+```
+yay -S sddm-theme-astronaut
+```
+
+## enable theme
+
+```
+sudo vim /usr/lib/sddm/sddm.conf.d/default.conf
+```
+
+change these line.
+
+```
+[Theme]
+# Current theme name
+Current=astronaut
+```
+
 # Result
 
 ![result](./assets/rs.png)
