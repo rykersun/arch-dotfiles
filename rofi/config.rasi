@@ -23,3 +23,7 @@ listview {
 window {
 	width: 50%;
 }
+
+element-icon {
+	size: 2ch;
+}
