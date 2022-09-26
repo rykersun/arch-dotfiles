@@ -9,7 +9,7 @@ configuration {
     display-combi:  "";
     display-calc:  "";
     display-power-menu:  "";
-    show-icons:     false;
+    show-icons:     true;
 }
 
 
