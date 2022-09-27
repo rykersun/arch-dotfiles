@@ -89,4 +89,3 @@ Current=astronaut
 # Result
 
 ![r1](./assets/1.png)
-![r2](./assets/2.png)
