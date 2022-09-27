@@ -1,5 +1,5 @@
 configuration {
-    font: "JetBrainsMono Nerd Font 18";
+    font: "JetBrainsMono Nerd Font 20";
     line-margin: 10;
 
     display-ssh:    "";
@@ -21,7 +21,7 @@ listview {
 }
 
 window {
-	width: 50%;
+	width: 60%;
 }
 
 element-icon {
