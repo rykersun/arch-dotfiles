@@ -88,4 +88,5 @@ Current=astronaut
 
 # Result
 
-![result](./assets/rs.png)
+![r1](./assets/1.png)
+![r2](./assets/2.png)
