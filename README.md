@@ -73,7 +73,3 @@ change these line.
 # Current theme name
 Current=astronaut
 ```
-
-# Result
-
-![r1](./assets/1.png)
