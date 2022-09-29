@@ -32,11 +32,9 @@ Or you can just `cd` into this folder and run `./install.sh`
 
 # Enable the dark mode
 
-If you want to enable the dark mode, just run the `enable_dark_mode.sh` in `gtk-3.0/`
+If you want to enable the dark mode, just run the `enable_dark_mode.sh`
 
 ```
-# gtk-3.0/enable_dark_mode.sh
-
  ./enable_dark_mode.sh
 ```
 
