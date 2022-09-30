@@ -1,6 +1,6 @@
 # Minimal i3-gaps config files
 
-Welcom...
+Welcome!
 
 # How to install?
 
