@@ -156,3 +156,10 @@ config.source('qutebrowser-themes/themes/onedark.py')
 c.url.start_pages = ["https://www.google.co.in/"]
 c.url.searchengines = {'DEFAULT': "https://www.google.co.in/search?q={}"}
 c.url.default_page = c.url.searchengines['DEFAULT']
+
+# Enabled built-in dark mode
+# config.set("colors.webpage.darkmode.enabled", True)
+
+# Bindings for normal mode
+config.bind('M', 'hint links spawn mpv --ytdl-format=best {hint-url}')
+config.bind('Z', 'hint links spawn st -e youtube-dl {hint-url}')
