@@ -6,4 +6,4 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo " "
 echo "Done, now reboot into Windows and enable NTP."
-ehco " "
+echo " "
