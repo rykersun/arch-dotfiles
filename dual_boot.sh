@@ -7,3 +7,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 echo " "
 echo "Done, now reboot into Windows and enable NTP."
 echo " "
+echo "After that, you can run at_least.sh"
+echo " "
