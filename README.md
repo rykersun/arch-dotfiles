@@ -1,6 +1,6 @@
 # Minimal i3-gaps config files
 
-![my-dots](./assets/my-dots.gif)
+Welcom...
 
 # How to install?
 
