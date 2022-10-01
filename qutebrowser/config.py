@@ -153,7 +153,8 @@ c.fonts.default_size = '14pt'
 config.source('qutebrowser-themes/themes/onedark.py')
 
 # Set google as default page and engine
-c.url.start_pages = ["https://www.google.co.in/"]
+# c.url.start_pages = ["https://www.google.co.in/"]
+c.url.start_pages = ["https://www.time.is/"]
 c.url.searchengines = {'DEFAULT': "https://www.google.co.in/search?q={}"}
 c.url.default_page = c.url.searchengines['DEFAULT']
 
