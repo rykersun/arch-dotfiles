@@ -12,6 +12,10 @@ rm -rf ~/.config/alacritty/ && mv alacritty/ ~/.config/ && rm -rf ~/.fonts/ && m
 
 Or you can just `cd` into this folder and run `./install.sh`
 
+# TODO
+
+* Fix polybar network device (Can't get all computer network device name.)
+
 # Effects
 
 * alacritty config file
